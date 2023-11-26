@@ -1,0 +1,144 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica; 
+	box-sizing: border-box;
+}
+
+:root{
+	--majorheading: #87423c; 
+	--navyblue: #0C243C; 
+	--navigation: #4d1d18;
+}
+#wrapper{
+	width: 960px;
+	height: 1290px;
+	margin: auto;
+}
+body {
+	font-size: 1em;
+	line-height: 1.3em;
+}
+.majorheading {
+	color: #87423c 
+}
+.navyblue {
+	color: #0C243C;
+}
+.navigation{
+	color:#4d1d18;
+}
+.specialcakesfont {
+	font-family: Arial, sans-serif;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.clearboth {
+    clear: both;
+}
+nav{
+	width: 960px;
+	height: 50px;
+	line-height: 25px;
+	text-align: right;
+	color: #4d1d18; 
+}
+
+nav>a{
+	margin-left: 35px;
+	display: inline-block;
+	margin-left: 15px;
+	text-decoration: none;
+	color: #4d1d18;
+}
+h1{
+	font-size: 36px;
+	padding-bottom: 25px;
+	color: #87423c;
+	font-family: Arial, Helvetica; 
+}
+h2{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	color:#4d1d18; 
+}
+h3{
+	margin-top: 25px;
+	color:#4d1d18; 
+    padding-bottom:15px;
+}
+/* section{
+    width:700px;
+	height:50px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	margin-left: 140px;
+} */
+/* }
+article{
+	margin-left: 113px;
+    margin-top: 40px;
+} */
+/* table{
+    width: 900px;
+    border: 2px solid;
+    border-collapse: collapse;
+    color: #0C243C;
+    text-align: left;
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+td,th{
+    width: 300px;
+    height: 45px;
+    color: #0C243C;
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: left;
+}
+th{
+    color: white;
+    background-color: #0C243C;
+    border:#0C243C;
+}
+tr:nth-child(3){
+    background-color: #9dbae0;
+}
+.specs{
+    background-color: white;
+}
+.work{
+	margin-left: 140px;
+	margin-bottom: 20px;
+} */
+.attract{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+.attractions{
+    width: 700px;
+    height: 900px;
+    margin-left: 150px;
+    text-align: justify;
+}
+footer{
+	width:960px;
+	height:50px;
+	text-align:center;
+	background-color: #0C243C;
+	color: aliceblue;
+	line-height: 50px;
+	margin-top: 30px;
+	
+}
+i{
+	margin-left: 20px;
+}
